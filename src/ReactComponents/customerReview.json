@@ -1,0 +1,23 @@
+[
+        {
+        "id":1,
+        "title":"Shelly Russel",
+        "images":"/images/personfirst.png",
+        "Rating":"4",
+        "content":"Just got my hands on some absolutely awesome plants, and I couldn’t be happier!"
+    },
+     {
+        "id":2,
+        "title":"Lula Rolfson",
+        "images":"/images/personsecond.png",
+         "Rating":"4",
+        "content":"Each one has its own unique charm and personality, and they’ve already started brightening up my space. The vibrant colors and fresh greenery make such a huge difference in my home."
+    },
+     {
+        "id":3,
+        "title":"Carol Huels",
+        "images":"/images/personthird.png",
+         "Rating":"4",
+        "content":"It's like bringing a little piece of nature indoors. Definitely worth the investment—my plant collection has never looked better!"
+    }
+]

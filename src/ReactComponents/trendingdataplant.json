@@ -1,0 +1,16 @@
+[
+        {
+        "id":1,
+        "title":"For Your Desks Decorations",
+        "plantimges":"/images/PlantainLilies.png",
+        "content":"I recently added a beautiful desk decoration plant to my workspace, and it has made such a positive difference!",
+        "price":"Rs.599"
+    },
+        {
+        "id":1,
+        "title":"Aglaonema plant",
+        "plantimges":"/images/Agaveplant.png",
+        "content":"The greenery adds a touch of nature and serenity to my desk, making it feel more inviting and calming",
+            "price":"Rs.599"
+    }
+]

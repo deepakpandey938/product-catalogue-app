@@ -1,0 +1,195 @@
+.our-best-plant {
+
+  background-color: #1c2416;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #c6c7c5;
+  padding-bottom: 8rem 0rem;
+}
+
+.Featured-plant-card {
+  display: flex;
+  flex-direction: row;
+  width: 95%;
+  justify-content: space-between;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(18px);
+  border-radius: 150px;
+}
+.section-plant-image img {
+  width: 46rem;
+  height: 43rem;
+
+}
+.plant-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 3rem;
+}
+.plant-details h2 {
+  font-family: Inter;
+  font-weight: 600;
+  font-style: Semi Bold;
+  font-size: 2rem;
+}
+.plant-details p {
+  font-family: Inter;
+  font-weight: 400;
+  font-style: Semi Bold;
+  font-size: 1.5rem;
+}
+.plant-details-explorer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.plant-details button {
+  width: 10rem;
+  height: 3.1rem;
+  color: #c6c7c5;
+  background-color: transparent;
+  border-radius: 6px;
+  border: 2px solid #c6c7c5;
+  font-size: 1.2rem;
+}
+
+.next-btn {
+  display: flex;
+  flex-direction: row;
+  width: 10rem;
+  justify-content: space-between;
+  align-items: center;
+}
+.counter {
+  font-size: 1.5rem;
+}
+.backward-btn {
+  background-image: url("/images/Arrow.png");
+  background-size: cover;
+  width: 1.3rem;
+  height: 1.3rem;
+  rotate: calc(180deg);
+}
+.forward-btn {
+  background-image: url("/images/Arrow.png");
+  background-size: cover;
+  width: 1.3rem;
+  height: 1.3rem;
+}
+
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .Featured-plant-card {
+    flex-direction: column;
+  }
+  .section-plant-image img {
+    width: 20rem;
+    height: 20rem;
+  }
+  .plant-details h2 {
+    font-size: 2rem;
+  }
+  .plant-details p {
+    font-size: 1rem;
+  }
+  .next-btn {
+    display: flex;
+    flex-direction: row;
+    width: 10rem;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .counter {
+    font-size: 1.5rem;
+  }
+  .backward-btn {
+    background-image: url("/images/Arrow.png");
+    background-size: cover;
+    width: 1.3rem;
+    height: 1.3rem;
+    rotate: calc(180deg);
+  }
+  .forward-btn {
+    background-image: url("/images/Arrow.png");
+    background-size: cover;
+    width: 1.3rem;
+    height: 1.3rem;
+  }
+
+  .current-plant {
+    width: 1.1rem;
+    height: 4px;
+    background: rgba(255, 255, 255, 1);
+    border-radius: 10px;
+  }
+  .next-plant {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #c6c7c5;
+  }
+  .scroll-plant-icon {
+    width: 2.8rem;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .scroll-plant-icon {
+    margin: 4rem;
+  }
+  .Featured-plant-card {
+    border-radius: 1rem;
+  }
+}
+@media (min-width: 20px) and (max-width: 480px) {
+  .Featured-plant-card {
+    flex-direction: column;
+  }
+  .Featured-plant-card {
+    border-radius: 1rem;
+  }
+  .section-plant-image img {
+    width: 16rem;
+    height: 16rem;
+  }
+  .plant-details h2 {
+    font-size: 1.4rem;
+  }
+  .plant-details p {
+    font-size: 0.7rem;
+  }
+
+  .section-plant-image img {
+    margin: auto auto;
+  }
+  .plant-details button {
+    width: 8rem;
+    height: 3rem;
+    font-size: 1rem;
+  }
+
+  .counter {
+    font-size: 1.5rem;
+  }
+  .backward-btn {
+    width: 1rem;
+    height: 1rem;
+  }
+  .forward-btn {
+    width: 1rem;
+    height: 1rem;
+  }
+}
+@media (min-width: 481px) and (max-width: 1200px) {
+  .Featured-plant-card {
+    flex-direction: column;
+  }
+  .Featured-plant-card {
+    border-radius: 1rem;
+  }
+}

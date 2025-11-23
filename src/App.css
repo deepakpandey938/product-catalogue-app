@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+
+* {
+  margin: 0;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.current-plant {
+  width: 14px;
+  height: 3px;
+  background: rgba(255, 255, 255, 1);
+  border-radius: 10px;
+}
+.next-plant {
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background-color:  #c6c7c5;;
+}
+.scroll-plant-icon {
+  width: 45px;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.effect-btn:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+  font-size: 1.4rem;
+}
+.corner-title {
+  color: aliceblue;
+  font-family: Inter;
+  font-weight: 600;
+  font-style: Semi Bold;
+  font-size: 2.2rem;
+  text-align: center;
+  align-items: center;
+  width: 25rem;
+  margin: 2rem;
+}
+.corner-title {
+  display: inline-block;
+  position: relative;
+  padding: 8px 8px;
+   color: #c6c7c5;
+}
+.corner-title::before {
+  content: "";
+  position: absolute;
+  right: 82%;
+  width: 70px;
+  height: 55px;
+  border-left: 4px solid #f7d739;
+  border-bottom: 4px solid #fbd300;
+  border-radius: 0 0 0 14px;
+}
+.corner-title::after {
+  content: "";
+  position: absolute;
+  left: 85%;
+  bottom: 7%;
+  width: 70px;
+  height: 55px;
+  border-right: 4px solid #b5a24b;
+  border-top: 4px solid #b5a24b;
+  border-radius: 0 14px 0 0;
+}
+@media (min-width: 20px) and (max-width: 480px) {
+  .headline-header {
+    font-size: 2.5rem;
+  }
+  .corner-title {
+    font-size: 1.5rem;
+  }
+  .corner-title::before {
+    right: 75%;
+    width: 54px;
+    height: 40px;
+  }
+  .corner-title::after {
+    left: 80%;
+    width: 54px;
+    height: 40px;
+  }
+  html,
+  body,
+  #root,
+  .App {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    box-sizing: border-box;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .headline-header {
+    font-size: 4rem;
+  }
+}

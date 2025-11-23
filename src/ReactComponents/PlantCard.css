@@ -1,0 +1,134 @@
+.PlantCard {
+  background-color: #1c2416;
+  border: none;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.cart-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+ 
+}
+.Product-grid {
+  width: 26.2rem;
+  height: 30rem;
+  margin: 1.75rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #cbccca;
+  padding: 3rem;
+  border: 2px solid #c6c7c5;;
+  border-radius: 45px;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(15px);
+    position: relative;
+    z-index: 3;
+   
+
+}
+.Product-grid img {
+  width: 100%;
+  height: auto;
+  display: block;
+    overflow: visible;
+
+
+}
+.Product-title {
+  font-style: 2.5rem;
+}
+.swaper {
+  transform: translate(0, -10%);
+  justify-content: space-evenly;
+  padding: 13px;
+}
+.Product-grid h2 {
+  font-family: Inter;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 2rem;
+  padding: 0.6rem 0px;
+}
+
+.Product-grid p {
+  font-family: Inter;
+  font-weight: 200;
+  font-size: 1.2rem;
+}
+.buy-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.shophing-card {
+  width: 2.8rem;
+  height: 3.1rem;
+  border-radius: 5px;
+  border: 2px solid #b4b5b4;
+}
+.shoping-icon {
+  background-image: url("/images/bag.png");
+  background-size: cover;
+  width: 2.3rem;
+  height: 2.3rem;
+}
+@media (min-width: 481px) and (max-width: 768px) {
+
+}
+@media (min-width: 20px) and (max-width: 480px) {
+.Product-grid {
+  width: 19rem;
+  height: 25rem;
+   margin: 2rem 0rem;
+}
+
+.swaper {
+  padding: 0rem;
+}
+.Product-grid img {
+  width: 20rem;
+  height: 20rem;
+  padding: 5px 0px;
+
+}
+.Product-grid h2 { 
+  padding:0rem 2rem;
+  font-size: 1.4rem;
+}
+
+.Product-grid p {
+  font-size: 1rem;
+    padding:0rem 2rem;
+}
+
+.shophing-card {
+  width: 2rem;
+  height: 2.5rem;
+}
+.shoping-icon {
+  width: 2rem;
+  height: 2rem;
+}
+.buy-info {
+  justify-content: space-around;
+}
+}
+
+
+
+
+
+
+
+

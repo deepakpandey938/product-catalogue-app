@@ -1,0 +1,39 @@
+[
+    {
+        "id":1,
+        "title":"Aglaonema plant",
+        "plantimges":"/images/RosegoldMonogramlogo.png",
+        "content":"The Aglaonema plant, commonly known as Chinese Evergreen known for its attractive foliage and ease of care"
+    },
+     {
+        "id":2,
+        "title":"Plantain Lilies",
+        "plantimges":"/images/PlantainLilies.png",
+        "content":"Hostas are primarily grown for their lush, decorative leaves, which come in a wide variety of shapes, sizes,"
+    },
+     {
+        "id":3,
+        "title":"Cactus",
+        "plantimges":"/images/Cactus.png",
+        "content":"It is known for their ability to thrive in arid environments"
+    },
+     {
+        "id":4,
+        "title":"Sansevieria plant",
+        "plantimges":"/images/SwisscheesePlant.png",
+        "content":"It is a popular indoor plant admired for its striking appearance and low-maintenance nature."
+    },
+     {
+        "id":5,
+        "title":"Agave plant",
+        "plantimges":"/images/Sansevieria plant.png",
+        "content":"The Aglaonema plant, commonly known as Chinese Evergreen known for its attractive foliage and ease of care"
+    },
+     {
+        "id":6,
+        "title":"Aglaonema plant",
+        "plantimges":"/images/Agaveplant.png",
+        "content":"The Agave plant is a genus of succulent plants known for their striking rosette of thick, fleshy leaves and architectural forms."
+    }
+    
+]

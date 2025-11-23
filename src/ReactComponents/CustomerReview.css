@@ -1,0 +1,121 @@
+.CustomerReview{
+  background-color: #1c2416;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Customer-Review-container{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.custmor-review-card{
+      width: 26rem;
+  height: 26rem;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  color: #cbccca;
+  padding: 3rem;
+  border: 2px solid  #c6c7c5;;
+  border-radius: 45px;
+  background: rgba(255, 255, 255, 0.05);
+  border-image-source: linear-gradient(
+    149.83deg,
+    #ffffff 6.85%,
+    #000000 94.86%
+  );
+  backdrop-filter: blur(15px);
+  clip-path: polygon(
+    0% 0%,
+    20% 0%,
+    40% 4%,
+    60% 4%,
+    80% 0%,
+    100% 0%,
+    100% 100%,
+    0% 100%
+  );
+}
+.custmor-review-card img{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+      object-fit: cover;
+}
+.customer-details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+ 
+}
+.customer-details h2{
+  font-size: 2rem;
+  font-family: Inter;
+font-weight: 600;
+font-style: Semi Bold;
+color: #c6c7c5;
+
+
+
+}
+.rating-ratio{
+    display: flex;
+    flex-direction: column;
+
+}
+.customer-rating{
+    width: 4.7rem;
+    height: 1.2rem;
+ 
+}
+.customer-description{
+color: #c6c7c5;
+   
+}
+.customer-description p{
+     font-family: Inter;
+font-weight: 200;
+font-style: Regular;
+font-size: 1.2rem;
+}
+.gold{
+  color: gold;
+}
+.customer-rating span{
+  font-size: 1.5rem;
+}
+@media (min-width: 481px) and (max-width: 768px) {
+.Customer-Review-container{
+    flex-direction: column;
+}
+.custmor-review-card{
+      width: 20rem;
+  height: 20rem;
+ 
+  padding: 1rem;
+}
+.customer-details h2{
+  font-size: 1.8rem;
+}
+}
+@media (min-width: 20px) and (max-width: 480px) {
+.Customer-Review-container{
+    flex-direction: column;
+}
+.custmor-review-card{
+      width: 20rem;
+  height: 20rem;
+ 
+  padding: 1rem;
+}
+.customer-details h2{
+  font-size: 1.8rem;
+}
+}

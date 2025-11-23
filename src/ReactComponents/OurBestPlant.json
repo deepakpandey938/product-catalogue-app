@@ -1,0 +1,31 @@
+[
+            {
+        "id":1,
+        "title":"We Have Small And Best O2 Plants Collection’s",
+        "images":"/images/bestplant.png",
+        "descriptionone":"Oxygen-producing plants, often referred to as O2 plants , are those that release oxygen into the atmosphere through the process of photosynthesis.",
+        "descriptiontow":"They help reduce harmful chemicals like benzene, carbon monoxide, and formaldehyde, making your surroundings fresher and safer."
+        
+    },
+                {
+        "id":2,
+        "title":"Top Rated O2 Boosting Indoor Plants’s",
+        "images":"/images/bestplant.png",
+        "descriptionone":"These indoor oxygen-boosting plants naturally purify the air and maintain a healthy atmosphere inside your home.",
+        "descriptiontow":"Many plants can help filter out pollutants and toxins from the air, such as formaldehyde, benzene, and trichloroethylene. This makes the air cleaner and healthier to breathe."
+    },            {
+        "id":3,
+        "title":"Small but Powerful Air Purifying Plants",
+        "images":"/images/bestplant.png",
+        "descriptionone":"Compact oxygen-producing plants designed for small rooms, shelves, and office desks to keep the air fresh.",
+        "descriptiontow":"They actively remove indoor toxins and improve ventilation, contributing to better overall air quality."
+    },
+                {
+        "id":4,
+        "title":"Best Handpicked O2 Plants for Home",
+        "images":"/images/bestplant.png",
+        "descriptionone":"Handpicked for their high oxygen output, these plants create a calm and refreshing environment in any space.",
+        "descriptiontow":"Scientifically proven to increase humidity and reduce airborne dust, making your home healthier and more comfortable."
+    }
+
+]
